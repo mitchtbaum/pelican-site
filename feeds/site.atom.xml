@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pelican</title><link href="/" rel="alternate"></link><link href="/feeds/site.atom.xml" rel="self"></link><id>/</id><updated>2014-02-17T11:27:00+00:00</updated><entry><title>avar.is</title><link href="/site/avaris/" rel="alternate"></link><updated>2014-02-17T11:27:00+00:00</updated><author><name></name></author><id>tag:,2014-02-17:site/avaris/</id><summary type="html"></summary></entry><entry><title>notmyidea</title><link href="/site/notmyidea/" rel="alternate"></link><updated>2014-02-17T10:32:20+00:00</updated><author><name></name></author><id>tag:,2014-02-17:site/notmyidea/</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Original inspiration for creating Pelican :smile:&lt;/li&gt;
+&lt;li&gt;Custom Makefile&lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
