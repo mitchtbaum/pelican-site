@@ -1,4 +1,4 @@
 Title: avar.is
 Link: http://avar.is/
-Plugin: assets
+Plugin: assets, neighbors
 Theme: notmyidea
