@@ -41,24 +41,24 @@
     {% if article.link %}
       Link: <a href={{ article.link }}>{{ article.title }}</a>
     {% endif %}
-<br>
-{% if article.referenced_by %}
-{% for reference in article.referenced_by %}
-Sites using this: <a href={{ SITEURL }}/{{ reference.url }}>{{ reference.title }}</a><br>
-{% endfor %}
-{% endif %}
-<br>
-{% if article.theme %}
-{% for reference in article.theme %}
-Theme: <a href={{ SITEURL }}/{{ reference.url }}>{{ reference.title }}</a>
-{% endfor %}
-{% endif %}
-<br>
-{% if article.plugin %}
-{% for reference in article.plugin %}
-Plugin: <a href={{ SITEURL }}/{{ reference.url }}>{{ reference.title }}</a>
-{% endfor %}
-{% endif %}
+    <br>
+    {% if article.referenced_by %}
+      {% for reference in article.referenced_by %}
+        Sites using this: <a href={{ SITEURL }}/{{ reference.url }}>{{ reference.title }}</a><br>
+      {% endfor %}
+    {% endif %}
+    <br>
+    {% if article.theme %}
+      {% for reference in article.theme %}
+        Theme: <a href={{ SITEURL }}/{{ reference.url }}>{{ reference.title }}</a>
+      {% endfor %}
+    {% endif %}
+    <br>
+    {% if article.plugin %}
+      {% for reference in article.plugin %}
+        Plugin: <a href={{ SITEURL }}/{{ reference.url }}>{{ reference.title }}</a>
+      {% endfor %}
+    {% endif %}
   </footer><!-- /.post-info -->
   <div class="entry-content">
     {{ article.content }}
